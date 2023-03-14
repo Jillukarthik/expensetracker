@@ -1,0 +1,46 @@
+.tracker__header{
+    text-align: center;
+}
+
+.tracker__group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tracker__balance{
+height: 20vh;
+width: 50%;
+border: 2px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.tracker__input{
+    width: 200px;
+    height: 20px;
+}
+.btn{
+    width: 70px;
+    height: fit-content;
+}
+.tracker__transaction{
+    margin-top: 12px;
+    height: 60vh;
+    width: 50%;
+    border: 2px solid black;
+    overflow-y: scroll;
+}
+.tracker__transactionheader{
+    margin-top: 24px;
+    margin-left: 25px ;
+  
+}
+
+.tracker__transactionbody{
+    margin-top: 12px;
+    margin-left: 24px;
+}
