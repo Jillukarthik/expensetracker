@@ -44,3 +44,11 @@ flex-direction: column;
     margin-top: 12px;
     margin-left: 24px;
 }
+
+.btn--state-add{
+    margin-right: 4px;
+}
+
+.btn--state-remove{
+    margin-left: 4px;
+}

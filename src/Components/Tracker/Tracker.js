@@ -56,17 +56,20 @@ function Tracker() {
           <input
             className="tracker__input"
             value={set}
+            type="number"
             onChange={(e) => setInput(e.target.value)}
           />
           <div className="tracker__buttons">
             <button
               className="btn btn--state-add"
+              disabled={set ? false :true}
               onClick={() => handle("Add","+")}
             >
               Add
             </button>
             <button
               className="btn btn--state-remove"
+              disabled={set ? false : true}
               onClick={() => handle("Remove","-")}
             >
               Remove
