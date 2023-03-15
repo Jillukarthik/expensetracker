@@ -7,23 +7,10 @@ function Tracker() {
 
   const date = new Date().toString();
 
-  // const handle = (val,symbol) => {
-  //   setData([
-  //     ...data,
-  //     {
-  //       input: set,
-  //       date: date,
-  //       operator: val,
-  //       random: Math.random(),
-  //       operation:symbol,
-  //     },
-  //   ]);
-  // };
+  
 
   const handle = (val,symbol) => {
-    const inputValue = parseFloat(set); // convert the input string to a number
-    // if (isNaN(inputValue)) return; // handle invalid input
-  
+    const inputValue = parseFloat(set); 
     const newTransaction = {
       input: inputValue,
       date: date,
